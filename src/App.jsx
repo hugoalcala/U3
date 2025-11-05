@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App">
       <Card
-        title="Mi Título de Tarjeta"
-        paragraph="Este es el contenido del párrafo de la tarjeta. Incluye información importante y relevante."
+        titulo="Mi Título de Tarjeta"
+        paragrafo="Este es el contenido del párrafo de la tarjeta. Incluye información importante y relevante."
       />
     </div>
   );
