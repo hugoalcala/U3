@@ -13,15 +13,21 @@ import AuthContext from './componentes/AuthContext.jsx';
 import AuthStatus from './componentes/AuthStatus.jsx'; 
 import Inputs from './componentes/Inputs.jsx';
 import Ejercicio2inputs from './componentes/Ejercicio2inputs.jsx';
-import Card from './componentes/Card';
+import Card from '../src/componentes/Card.jsx';
+import Etiqueta from '../src/componentes/Etiqueta.jsx'
+
 
 function App() {
   return (
     <div className="App">
+      {/* Tu componente Card */}
       <Card
         titulo="Mi Título de Tarjeta"
         paragrafo="Este es el contenido del párrafo de la tarjeta. Incluye información importante y relevante."
       />
+      
+      <Etiqueta importante>Urgente</Etiqueta>
+      <Etiqueta>Normal</Etiqueta>
     </div>
   );
 }

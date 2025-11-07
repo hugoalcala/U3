@@ -8,5 +8,4 @@ const Card = ({ titulo, paragrafo }) => {
     </div>
   );
 };
-
-export default Card;
+export default Card ;
