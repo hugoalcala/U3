@@ -2,33 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Carrousel from './componentes/Carrousel'
-import ChisteRandom from './componentes/ChisteRandom'
-import Reloj from './componentes/Reloj'
-import CalculadoraFactorial from './componentes/useMemo'
-import Toggle from './componentes/useToggle'
-import LenguajeContext from './componentes/LenguajeContexto.jsx'
-import Saludo from './componentes/Saludar.jsx'
-import AuthContext from './componentes/AuthContext.jsx'; 
-import AuthStatus from './componentes/AuthStatus.jsx'; 
-import Inputs from './componentes/Inputs.jsx';
-import Ejercicio2inputs from './componentes/Ejercicio2inputs.jsx';
-import Card from '../src/componentes/Card.jsx';
-import Etiqueta from '../src/componentes/Etiqueta.jsx'
-import SimpleCard from './componentes/CardUI.jsx'
-import Cabeza from './componentes/header.jsx'
-import Pie from './componentes/footer.jsx'
-import Boton from './componentes/body.jsx'
-
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Inicio from './componentes/inicio.jsx'
+import Contacto from './componentes/contacto.jsx'
+import Perfil from './componentes/perfil.jsx'
+import RegistroFormulario from './componentes/FormularioControlado.jsx'
 
 function App() {
   return (
-    <div>
-      <Cabeza />
-      <Boton />
-      <Pie />
-    </div>
+    < RegistroFormulario />
   );
 }
 
